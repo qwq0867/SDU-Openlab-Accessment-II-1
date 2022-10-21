@@ -13,7 +13,7 @@
             <div class="videoPlayerBody" id="playerBody">
 
                 <video id="player" controls>
-                <source id="videoSource">
+                <source id="videoSource" type="video/mp4">
                 </video>
                 <div class="videoPlayerControlArea">
                     <input type="image" src="res/play.png" class="playerButtons" id="playBtn" height="48px" onclick="playvideo()">
@@ -21,6 +21,10 @@
                     <p style="display:inline; vertical-align:sub;">&nbsp&nbsp音量</p>
                     <input type="range" id="Volume" style="width:10%">
                 </div>
+            </div>
+            <div id="filearea">
+                <input type="file" id="fileSelector">
+                <input type="button" onclick="loadvideo()" value="装载">
             </div>
         </div>
     </body>
