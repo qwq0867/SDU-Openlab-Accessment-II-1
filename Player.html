@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Custom Video Player</title>
+        <link rel="stylesheet" href="src/PlayerStyle.css">
+        <script type="text/javascript" src="src/func.js"></script>
+    </head>
+    <body>
+        <div id="stage">
+            <h1 align="center" id="title">Custom Video Player</h1>
+            <hr id="titleline">
+            <div class="videoPlayerBody" id="playerBody">
+
+                <video id="player" controls>
+                <source id="videoSource">
+                </video>
+                <div class="videoPlayerControlArea">
+                    <input type="image" src="res/play.png" class="playerButtons" id="playBtn" height="48px" onclick="playvideo()">
+                    <input type="image" src="res/pause.png" class="playerButtons" id="pauseBtn" height="48px" style="display:none" onclick="pausevideo()">
+                    <p style="display:inline; vertical-align:sub;">&nbsp&nbsp音量</p>
+                    <input type="range" id="Volume" style="width:10%">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
