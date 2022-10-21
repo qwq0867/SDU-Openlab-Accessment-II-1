@@ -5,27 +5,34 @@ body
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    display:flex;
+    width: 100%;
 }
 
 .videoPlayerBody
 {
     display: flex;
-    justify-content: center;
     border:solid transparent;
     width: 60%;
+    min-width: 12cm;
     height: 60%;
     box-shadow: gray 0px 2px 5px 2px;
     padding: auto;
     margin-left: 5%;
+ 
     background-color:#222222;
     flex-direction: column;
 }
 #stage
 {
     background-color: rgba(48,48,48,0.96);
+    width: 98%;
     height: 100%;
     padding-bottom: 25%;
-    margin:1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 2%;
 }
 #title
 {
@@ -57,4 +64,28 @@ body
     border-radius: 0%;
     color: aqua;
     
+}
+#playAndInfo
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+#name
+{
+
+    color:#f1f2f3;
+}
+#infoAndSettings
+{
+    display: flex;
+    flex-direction: row;
+}
+.videoInfo
+{
+    display:flex;
+    width:15%;
+    flex-grow:1;
+    min-width: 12%;
+    margin-left: 5%;
+    margin-right: 4%;
 }
