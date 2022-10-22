@@ -23,21 +23,9 @@ body
     background-color:#222222;
     flex-direction: column;
 }
-.playerButtons
-{
-    height:36px;
-    padding:8px;
-}
-.videoSetting
-{
-    color:#f1f2f3;
-    box-shadow: gray 0px 2px 4px 2px;
-    padding: 3%;
-}
 #stage
 {
     background-color: rgba(48,48,48,0.96);
-    transition: all 0.8s;
     width: 98%;
     height: 100%;
     padding-bottom: 25%;
@@ -61,7 +49,6 @@ body
 #titleline
 {
     border-color:#444444;
-    border-width: 1px;
 }
 .videoPlayerControlArea
 {
@@ -102,21 +89,4 @@ body
 {
     display:flex;
     flex-direction: column;
-    transition:all 0.5s;
-}
-#norspd
-{
-    background-color:deepskyblue;
-}
-.speedSelectorItem
-{
-    border-radius: 8%;
-    border-width: 0cm;
-    background-color: #f1f2f3;
-}
-.buttons
-{
-    border-radius: 8%;
-    border-width: 0cm;
-    background-color: #f1f2f3;
 }
